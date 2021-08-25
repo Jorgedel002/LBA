@@ -24,7 +24,7 @@
 
 
 .fa-bars{
-    position: absolute;
+    position: fixed;
     z-index: 2;
     font-size: 35px;
     margin-top: 20px;
@@ -33,7 +33,7 @@
 }
 
 .fa-times{
-    position: absolute;
+    position: fixed;
     z-index: 2;
     font-size: 40px;
     margin-top: 16px;
@@ -42,7 +42,7 @@
 }
 
 .nav-bar{
-    position: absolute;
+    position: fixed;
     background: linear-gradient(to right top, rgb(156, 0, 117), rgb(248, 37, 255));
     width: 300px;
     height: 100vh;
