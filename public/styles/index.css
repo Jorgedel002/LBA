@@ -23,15 +23,53 @@
 }
 
 
-.hamburger{
+.fa-bars{
+    position: absolute;
+    z-index: 2;
     font-size: 35px;
     margin-top: 20px;
     margin-left: 10px;
     color: var(--Dark-Pink);
 }
 
+.fa-times{
+    position: absolute;
+    z-index: 2;
+    font-size: 40px;
+    margin-top: 16px;
+    margin-left: 13px;
+    color: #DBDBDB;
+}
+
+.nav-bar{
+    position: absolute;
+    background: linear-gradient(to right top, rgb(156, 0, 117), rgb(248, 37, 255));
+    width: 300px;
+    height: 100vh;
+    z-index: 1;
+    font-family: var(--Sunflower);
+    transform: translateX(-100%);
+    transition: all .5s ease;
+}
+
+.active{
+    transform: translateX(0);
+}
+
 .list{
-    display: none;
+    list-style: none;
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 80px;
+}
+
+.list-item a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
 }
 
 .carousel-container{
