@@ -1,0 +1,27 @@
+:root{
+    --Pattaya: 'Pattaya', sans-serif;
+    --Sunflower: 'Sunflower', sans-serif;
+    --Poppins: 'Poppins', sans-serif;
+    --Suwannaphum: 'Suwannaphum', cursive;
+    --Dark-Pink: #B2008A;
+    --Very-light-gray: #DBDBDB;
+    --Pink: rgb(255, 14, 223);
+}
+
+.main{
+    overflow: hidden;
+}
+
+.slider-container{
+    width: 300%;
+    display: flex;
+    overflow: hidden;
+}
+
+.img-container{
+    width: 100%;
+}
+
+.img-container img{
+    width: 100%;
+}
