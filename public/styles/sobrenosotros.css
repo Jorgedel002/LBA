@@ -17,6 +17,7 @@
 .slider{
     display: flex;
     width: 300%;
+    margin-left: -0%;
 }
 
 .slider-section{
@@ -58,3 +59,4 @@
 .slider-btn--left{
     left: 10px;
 }
+
